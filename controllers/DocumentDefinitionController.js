@@ -8,10 +8,10 @@ class DocumentDefinitionController {
           "name":"name",
           "type": "Text",
           "maxLength": 100,
-          "label":"Client Age",
-          },
-          {
+        },
+        {
           "_id": "228b905f-4a43-4a40-b829-0c6a04ad4782",
+          "label":"Client Age",
           "name": "age",
           "type": "number",
           }
