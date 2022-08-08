@@ -4,7 +4,7 @@ import helmet from "helmet";
 import compression from "compression";
 import documentRouter from "./routes/documentRouter.js";
 import documentDefinitionRouter from "./routes/documentDefinitionRouter.js";
-import LayoutRouter from "./routes/LayoutRouter.js";
+import LayoutRouter from "./routes/layoutRouter.js";
 
 const PORT = 5000
 const DB_URL =
