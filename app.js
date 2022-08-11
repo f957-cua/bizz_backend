@@ -6,10 +6,6 @@ import documentRouter from "./routes/documentRouter.js";
 import documentDefinitionRouter from "./routes/documentDefinitionRouter.js";
 import LayoutRouter from "./routes/layoutRouter.js";
 
-const PORT = 5000
-const DB_URL =
-  "mongodb+srv://ivan:passw0rd@cluster0.citn4.mongodb.net/?retryWrites=true&w=majority";
-
 const app = express()
 
 app.use(cors())
