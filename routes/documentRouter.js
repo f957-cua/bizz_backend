@@ -13,4 +13,8 @@ documentRouter.post(
 
 documentRouter.get("/documents", controllerWrapper(DocumentController.getAll))
 
+documentRouter.delete("/documents/:documentId", controllerWrapper(DocumentController.delete))
+
+documentRouter.put("/documents/:documentId", controllerWrapper(DocumentController.update))
+
 export default documentRouter;

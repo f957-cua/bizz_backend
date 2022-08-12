@@ -22,11 +22,14 @@ class DocumentController {
   }
 
   async update(req, res) {
-
+    const document = await Document.findByIdAndUpdate(req.params.documentId, { ...req.body }, { new: true })
+    res.status(200).json(document)
   }
 
   async delete(req, res) {
-
+    const document =
+      await Document.findByIdAndRemove(req.params.documentId);
+    res.status(200).json(document);
   }
 }
 
