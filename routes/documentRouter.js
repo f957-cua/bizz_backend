@@ -17,4 +17,6 @@ documentRouter.delete("/documents/:documentId", controllerWrapper(DocumentContro
 
 documentRouter.put("/documents/:documentId", controllerWrapper(DocumentController.update))
 
+documentRouter.patch("/documents/:documentId", controllerWrapper(DocumentController.updateField))
+
 export default documentRouter;
