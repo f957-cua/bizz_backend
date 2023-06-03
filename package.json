@@ -8,6 +8,9 @@
     "start": "node ./bin/server.js",
     "dev": "nodemon ./bin/server.js"
   },
+  "engines": {
+    "node": "14.5.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
