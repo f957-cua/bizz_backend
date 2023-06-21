@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./bin/server.js",
+    "start": "node index.js",
     "dev": "nodemon ./bin/server.js"
   },
   "engines": {
-    "node": "14.5.0"
+    "node": "14.x"
   },
   "keywords": [],
   "author": "",
